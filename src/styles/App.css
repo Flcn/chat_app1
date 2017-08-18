@@ -1,0 +1,75 @@
+body {
+  font-family: 'proxima-nova', sans-serif;
+  margin: 0;
+}
+
+html, body, #app, .container {
+  min-height: 100vh;
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.chat-input, .base-input {
+  margin: 10px 0px;
+  height: 60px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  color: #1e1e1e;
+  font: 400 1rem "proxima-nova", sans-serif;
+  width: 80%;
+  border: 1px solid #dee0e0;
+  padding: 0 20px;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  -moz-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.chat-input:focus, .base-input:focus {
+  border: 1px solid #5a78ff;
+  outline: none !important;
+}
+
+.login-button {
+  background-color: #5a78ff; /*#5f8c57;*/
+  color: white;
+  font: 700 1rem "proxima-nova",sans-serif;
+  border: none;
+  position: relative;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  padding: 20px 80px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: -7px 7px 0px rgba(50,50,50,0.15);
+  -moz-box-shadow: -7px 7px 0px rgba(50,50,50,0.15);
+  box-shadow: -7px 7px 0px rgba(50,50,50,0.15);
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  -webkit-box-shadow: -10px 10px 0px rgba(50,50,50,0.15);
+  -moz-box-shadow: -10px 10px 0px rgba(50,50,50,0.15);
+  box-shadow: -10px 10px 0px rgba(50,50,50,0.15);
+  background-color: #2930af;
+}
+
+.chat-info-container {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+.symbols-used {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #14af53;
+}
+.symbols-left {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #af4246;
+}

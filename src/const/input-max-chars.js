@@ -1,0 +1,1 @@
+export const INPUT_MAX_CHARS = 30;
